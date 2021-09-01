@@ -5,6 +5,14 @@ let stateRecording = 0;
 var recordButton;
 // var player, audioRecord;
 
+//try out sound playback
+let sound;
+
+function preload() {
+  soundFormats('mp3');
+  sound = loadSound('sounds/D2.mp3');
+}
+
 function setup() {
   //let cnv = createCanvas(100, 100);
   recordButton = select("#recordButton");
@@ -37,6 +45,8 @@ function canvasPressed() {
   userStartAudio();
 
   console.log(stateRecording);
+
+  sound.play();
 
   // make sure user enabled the mic
   if (stateRecording === 0 && mic.enabled) {
