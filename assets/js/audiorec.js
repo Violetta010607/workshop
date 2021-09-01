@@ -10,7 +10,7 @@ let sound;
 
 function preload() {
   soundFormats('mp3');
-  sound = loadSound('sounds/D2.mp3');
+  sound = loadSound('assets/js/sounds/D2.mp3');
 }
 
 function setup() {
@@ -46,13 +46,13 @@ function canvasPressed() {
 
   console.log(stateRecording);
 
-  sound.play();
-
   // make sure user enabled the mic
   if (stateRecording === 0 && mic.enabled) {
     console.log("if true")
     console.log(stateRecording+" start recording");
     // record to our p5.SoundFile
+    sound.play();
+
     recorder.record(soundFile);
 
     stateRecording++;
@@ -74,7 +74,7 @@ function canvasPressed() {
     save(soundFile, 'reflection-activity01.wav');
     // audioRecord.src = soundFile;
     // player.play();
-    stateRecording++;
+    stateRecording = 0;
   }
 }
 
