@@ -51,6 +51,7 @@ function canvasPressed() {
     console.log("if true")
     console.log(stateRecording+" start recording");
     // record to our p5.SoundFile
+    recordButton.style('background-color','#F0F');
     sound.play();
 
     recorder.record(soundFile);
@@ -59,7 +60,7 @@ function canvasPressed() {
   }
   else if (stateRecording === 1) {
     console.log(stateRecording +" stop recording");
-
+    recordButton.style('background-color','#0ea0ff');
 
     // stop recorder and
     // send result to soundFile
