@@ -20,7 +20,7 @@ var centrey = 0;
 
 function preload() {
   soundFormats('mp3');
-  soundA = loadSound('a.mp3');
+  soundA = loadSound('assets/js/sounds/a.mp3');
   soundA.setLoop(true);
 }
 
