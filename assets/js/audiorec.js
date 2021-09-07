@@ -31,7 +31,7 @@ function setup() {
 
   // prompts user to enable their browser mic
   mic.start();
-
+  getAudioContext().resume();
   // create a sound recorder
   recorder = new p5.SoundRecorder();
 
