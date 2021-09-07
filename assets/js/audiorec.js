@@ -48,6 +48,7 @@ function setup() {
 function canvasPressed() {
   // ensure audio is enabled
   userStartAudio();
+  getAudioContext().resume();
 
   console.log(stateRecording);
 
