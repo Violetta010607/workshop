@@ -31,7 +31,8 @@ function setup() {
 
   // prompts user to enable their browser mic
   mic.start();
-  getAudioContext().resume();
+  // getAudioContext().resume();
+  
   // create a sound recorder
   recorder = new p5.SoundRecorder();
 
@@ -48,7 +49,7 @@ function setup() {
 function canvasPressed() {
   // ensure audio is enabled
   userStartAudio();
-  getAudioContext().resume();
+  // getAudioContext().resume();
 
   console.log(stateRecording);
 
