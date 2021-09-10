@@ -2,8 +2,10 @@
 let video;
 var canvas;
 
-let widthCanv = 720;
-let heightCanv = 480;
+// let widthCanv = 720;
+// let heightCanv = 480;
+let widthCanv = 320;
+let heightCanv = 256;
 
 let stopButton;
 let startButton;
@@ -21,6 +23,7 @@ var centrex = 0;
 var centrey = 0;
 
 var context;
+var div;
 
 
 function preload() {
@@ -48,6 +51,8 @@ function setup() {
   //   getAudioContext().resume();
   // }
   console.log("setup: "+getAudioContext().state);
+
+  div = select("#canvas");
 
   // if(windowHeight > windowWidth){
   //   widthCanv = windowWidth;
@@ -85,6 +90,8 @@ function startVideo(){
   }
   // userStartAudio();
   isStarted = true;
+  div.attibute("aria-disabled", "false");
+
 }
 
 function pauseVideo(){
@@ -93,6 +100,7 @@ function pauseVideo(){
     console.log("stopButtonPressed: "+getAudioContext().state);
   }
   isStarted = false;
+  div.attibute("aria-disabled", "true");
 }
 
 // function playSound(){

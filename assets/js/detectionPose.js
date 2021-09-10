@@ -1,9 +1,12 @@
 
 let video;
 var canvas;
+var div;
 
-let widthCanv = 720;
-let heightCanv = 480;
+// let widthCanv = 720;
+// let heightCanv = 480;
+let widthCanv = 320;
+let heightCanv = 256;
 
 let stopButton;
 let startButton;
@@ -26,7 +29,8 @@ var context;
 
 function preload() {
   soundFormats('mp3');
-  soundA = loadSound('a.mp3');
+  soundA = loadSound('assets/js/sounds/maracasShort.mp3');
+  soundA.setVolume(1.0);
   // soundA.setLoop(true);
 }
 //ARUCO_MIP_36h12
@@ -56,11 +60,13 @@ function setup() {
   //   widthCanv = windowHeight;
   //   heightCanv = windowHeight * 1.5;
   // }
-  // console.log("canvas width: "+widthCanv);
-  // console.log("canvas height: "+heightCanv);
+  console.log("canvas width: "+widthCanv);
+  console.log("canvas height: "+heightCanv);
   // canvas = createCanvas((windowWidth/3)*2, (windowHeight/3)*2);
   canvas = createCanvas(widthCanv, heightCanv);
   canvas.parent("canvas");
+
+  div = select("#canvas");
 
   background(255);
   video = createCapture(VIDEO, videoReady);
@@ -85,6 +91,7 @@ function startVideo(){
   }
 
   isStarted = true;
+  div.attibute("aria-disabled", "false");
 }
 
 function pauseVideo(){
@@ -97,6 +104,7 @@ function pauseVideo(){
   if(soundA.isPlaying()){
     soundA.stop();
   }
+  div.attibute("aria-disabled", "true");
 }
 
 function drawCorners(markers){
@@ -162,14 +170,14 @@ function changeVolume(pose){
   // console.log("pose: "+pose);
   var z = pose.bestTranslation[2];
   console.log("z: "+z);
-  var newVolume = norm(z, 100, 2000);
+  var newVolume = norm(z, 100, 1000);
   // var newVolume = map(z, 100, 2000, 1, 0);
   newVolume = 1 - (Math.round(newVolume * 10) / 10)
-  var playbackRate = map(z, 100, 2000, 2, 0);
+  var playbackRate = map(z, 100, 1000, 2, 0);
   playbackRate = constrain(playbackRate, 0.01, 4);
 
   console.log(newVolume);
-  console.log(playbackRate);
+  // console.log(playbackRate);
 
   soundA.setVolume(newVolume);
   soundA.rate(playbackRate);
