@@ -91,7 +91,7 @@ function startVideo(){
   }
 
   isStarted = true;
-  div.attibute("aria-disabled", "false");
+  div.attribute("aria-disabled", "false");
 }
 
 function pauseVideo(){
@@ -104,7 +104,7 @@ function pauseVideo(){
   if(soundA.isPlaying()){
     soundA.stop();
   }
-  div.attibute("aria-disabled", "true");
+  div.attribute("aria-disabled", "true");
 }
 
 function drawCorners(markers){

@@ -38,17 +38,18 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-11 col-lg-10 offset-md-1 info">
-                        <div id="canvas" style="color: rgb(33, 37, 41);border: 3px solid var(--bs-gray-400) ;"></div>
-                        <div class="item" style="padding-bottom: 10px;margin-top: 10px;"><button class="btn btn-primary" id="startDetection" type="button" style="margin-right: 5px;">Start</button><button class="btn btn-primary" id="endDetection" type="button" style="margin-left: 5px;">Stop</button></div>
+                    <div class="col-12 col-md-11 col-lg-10 offset-md-1 offset-lg-1 info">
+                        <p id="label4app">Your phone's camera will be active when pressing the Start button and disabled clicking on Stop button.</p>
+                        <div id="canvas" style="color: rgb(33, 37, 41);border: 3px solid var(--bs-gray-400);width: px;margin-left: 20px;" role="application" aria-roledescription="camera frame" aria-labelledby="label4app" aria-disabled="true"></div>
+                        <div class="item" style="padding-bottom: 10px;margin-top: 10px;"><button class="btn btn-primary" id="startDetection" type="button" style="margin-right: 10px;margin-left: 20px;">Start</button><button class="btn btn-primary" id="endDetection" type="button" style="margin-left: 5px;">Stop</button></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-4 col-lg-2 offset-lg-1">
-                        <div><a class="btn btn-outline-primary" role="button" style="margin-left: 0px;" href="wb02-a04.html">Back</a></div>
+                        <div><a class="btn btn-outline-primary" role="button" style="margin-left: 0px;" href="wb02-detection01.html">Back</a></div>
                     </div>
                     <div class="col-4 col-lg-2 offset-4 offset-lg-6">
-                        <div><a class="btn btn-outline-primary" role="button" style="margin-left: 25px;margin-bottom: 0px;" href="workbook.html">Next</a></div>
+                        <div><a class="btn btn-outline-primary" role="button" style="margin-left: 25px;margin-bottom: 0px;" href="wb02-a04-feedback.html">Next</a></div>
                     </div>
                 </div>
             </div>
@@ -62,15 +63,14 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
-    <script type="text/javascript" src="assets/js/src/p5sounds/p5.sound.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/src/p5sounds/p5.sound.min.js"></script>
     <script src="assets/js/detectionPose.js"></script>
-    <script type="text/javascript" src="assets/js/src/posit1.js"></script>
-    <script type="text/javascript" src="assets/js/src/posit2.js"></script>
-    <script type="text/javascript" src="assets/js/src/aruco.js"></script>
-    <script type="text/javascript" src="assets/js/src/svd.js"></script>
-    <script type="text/javascript" src="assets/js/src/cv.js"></script>
+    <script src="assets/js/src/aruco/aruco.js"></script>
+    <script src="assets/js/src/aruco/cv.js"></script>
+    <script src="assets/js/src/aruco/posit1.js"></script>
+    <script src="assets/js/src/aruco/posit2.js"></script>
+    <script src="assets/js/src/aruco/svd.js"></script>
 </body>
 
 </html>

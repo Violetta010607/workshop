@@ -90,7 +90,7 @@ function startVideo(){
   }
   // userStartAudio();
   isStarted = true;
-  div.attibute("aria-disabled", "false");
+  div.attribute("aria-disabled", "false");
 
 }
 
@@ -100,7 +100,7 @@ function pauseVideo(){
     console.log("stopButtonPressed: "+getAudioContext().state);
   }
   isStarted = false;
-  div.attibute("aria-disabled", "true");
+  div.attribute("aria-disabled", "true");
 }
 
 // function playSound(){
