@@ -5,7 +5,8 @@ let stateRecording = 0;
 var recordButton;
 var downloadButton;
 // var wbName;
-var activityCount;
+var activityName;
+var activityNum;
 // var timer;
 // var player, audioRecord;
 
@@ -26,7 +27,9 @@ function setup() {
   downloadButton.mousePressed(downloadPressed);
 
   // wbName = select("#wbName");
-  activityCount = select('#wbActivity');
+  // add ID in <title> tag html page
+  activityName = select('#activityName');
+  // activityNum = select('#activityNum');
 
   // player = select("#player");
   // audioRecord = select('#audioSrc');
@@ -105,7 +108,7 @@ function downloadPressed(){
     console.log(stateRecording+" save recording");
     soundDownload.play();
     soundFile.play(); // play the result!
-    save(soundFile, trim(activityCount.html())+'.wav');
+    save(soundFile, trim(activityName.html())+'.wav');
     // audioRecord.src = soundFile;
     // player.play();
     stateRecording = 0;
