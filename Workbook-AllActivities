@@ -84,6 +84,13 @@ The role AI might play
 ##########################
 
 Activity 1
+
+Experience 2 small applications
+Materials set up
+One person has to hold the smartphone you are using for this workbook in front of themselves
+the other person has to wear the tangible tag tied to a strap on their arm. You can find the tangible tag in the envelope marked by a square. A tag is a binary drawing composed of geometric shapes. You can sense it using the large tactile version provided in the materials.
+The following two pages contain two slightly different applications to detect the tag one person is wearing using the smartphone's camera the other person is holding. When the tag is detected an audible feedback is played back. When you start, change your position in relation to your companion (e.g., move from left to right, or come closer) and experience how the audible feedback changes in relation to one another position and orientation. A brief task description is provided at the top of each page. The Strat application button will lead you to the first application.
+
 How far are you?
 During my studies I have met some pair who told me that while walking together may also happen they physically disengage for some reason (e.g., an unexpected event happening in the surrounding) and both companions may feel disoriented.
 Has that ever happened to you? How far do you move?
@@ -99,20 +106,20 @@ The following two pages contain two slightly different applications to detect th
 --------------------
 
 Exploring Direction
-This application uses the front camera of your smartphone to capture the scene in front of you and detects a tag worn by a person. When the tag is detected the application plays back a sound. The audible feedback has a soft sound when in the middle of the screen and  changes in rate (it accelerates) when it is close to the left or right camera's edges.
-
+This application uses the front camera of your smartphone to capture the scene in front of you and detect a tag worn by the other person. When the tag is detected the application plays back a sound. The audible feedback has a soft sound when in the middle of the screen and  changes in rate (it accelerates) when it is close to the left or right camera's edges.
 
 --------------------
 
-How far are you?
-Similarly to the previous application, this one detects the tag using  front camera of your smartphone. When the tag is detected the application plays back a sound. This time the audible feedback changes in pitch and volume. It get louder and more discorded as it moves closer to the camera.
+Exploring Distance
+Similarly to the previous application, this one detects the tag using the  smartphone’s front camera. When the tag is detected the application plays back a sound. This time the audible feedback changes in volume. It get louder as it moves closer to the camera.
 
 --------------------
 
 Activity 1
-Reflect on these applications and your guiding experience
+Reflect on these applications in relation to your guiding experience
+During my studies I have met some pair who told me that while walking together may also happen they physically disengage for some reason (e.g., an unexpected event happening in the surrounding) and both companions may feel disoriented. Has that ever happened to you? How far do you move? How do you move in relation to your companion?
+
 A new wearable AI sensor can detect these moments when you are not in physical contact during a walk. Which kind of information would you be interested in receiving?  What would a sound indicate?  How would it support your communication?
-Audio record your answer and send your recording.
 
 
 --------------------
@@ -120,14 +127,12 @@ Audio record your answer and send your recording.
 Activity 2
 How would you teach a machine to learn your body language?
 I have realised travel companions create their own language. For instance, a sighted guide (Sara) usually says "Go skinny" and moves her arm towards her back to indicate to her blind companion to move behind her, for instance because the street ahead is getting narrow.
-You are a team who has the opportunity to label actions related to sighted guiding for an AI technology which will be developed to recognise body movements in sighted guiding.
-What are relevant actions of your own body language you want to teach?
-You are a team who has the opportunity to label actions related to sighted guiding for an AI technology which will be developed to recognise body movements in sighted guiding.
+You are a team who has the opportunity to label actions related to sighted guiding for an AI technology which will be developed to recognise body movements in sighted guiding. What are relevant actions of your own body language you want to teach?
 Have a walk outside using your usual sighted guiding formation.
 1. Pause the walk every time one of you does a body movement you think an AI tech should recognise.
-2. Think aloud and discuss together: What is this movement? Why did you choice it? Would you label this
-action?
+2. Think aloud and discuss together: What is this movement? Why did you choice it?
 3. Use one, 2 or few words to label the body movement: What does it mean for you?
+
 Send your data
 
 --------------------
@@ -136,4 +141,4 @@ Activity 3
 Silence is also communication
 Current voice synthesisers (e.g., Siri) recognise and response to your voice, but they ignore silence. In early research I found silence was used in the sighted guiding practice as a relevant sign to shift the attention towards something more challenging happening around (e.g., while getting through a narrow gap or some passers-by coming up). If a pause in the ongoing conversation while walking together can be detected by an intelligent system an audible feedback could be used to support challenging situations you experience.
 Discuss and reflect
-What would a sound indicate? How would it support your communication?
+While walking together what is a challenge situation you have experience? What would a sound indicate? How would it support your communication?
