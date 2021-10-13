@@ -1,3 +1,28 @@
+##########################
+
+Home
+
+##########################
+
+Hello! I am Beatrice. The following 3 paragraphs are an Introduction to the workshop you have agreed to participate in. Please, take the time to read the text carefully.
+
+In the early stages of my PhD research, before we were all forced to stay at home, I conducted a study with blind people and their guides. Through this study, I discovered that strong connections can develop in sighted guide partnerships. Over time, I have seen how pairs develop a sense of each other’s movements that helps them move fluidly together. It’s clear that sighted guide partnerships work very well and rely on people’s shared and creative use of skills. 
+
+In this follow-up research, I’m interested in the ways technology could be used to strengthen this partnership. Unlike other technological solutions that prioritise independence, I’m much more curious about how technology can support what already works so well, in this case, the way blind people and their guides move together. 
+
+In each of the following activities, I am inviting pairs to think about the ways they use their bodies together and communicate with one another in subtle and often creative ways. I also introduce some very simple technologies to help stimulate ideas for the role technology might play. What is really important in this workbook is that the activities are understood as starting points for strengthening people’s partnerships and not proposals for final solutions. I want to create a language and set of tools that we can use to think together.
+
+#########################
+
+Workbook: Strengthening connections
+
+#########################
+
+The first section of this workbook comprises 4 activities. These activities will explore the physical connection and relationship you have as sighted guiding companions. 
+
+You can move forwards and backwards through the activities by pressing the "next" and "back" buttons at the end of each activity page. Try your best to step through the activities in the order they are presented.
+
+
 
 ##########################
 
@@ -69,7 +94,8 @@ SOUND MEDIA PLAYER 01: WHICH IS A SUITABLE SOUND???
 SOUND MEDIA PLAYER 02: WHICH IS A SUITABLE SOUND???
 SOUND MEDIA PLAYER 03: WHICH IS A SUITABLE SOUND???
 
-Before starting the task, remind to play back a sound of your choice. You can choice one of three below.
+Before starting the task, remind to play back a sound of your choice. You can choice one of three above.
+
 While the sound is playing simulate a daily routine where one of you has to move apart from the other. For example, opening a window or serving a drink.
 Try the task again, but change roles and the sound you have chosen.
 Reflect on your activity
@@ -77,68 +103,92 @@ What did the audio feedback tell you about your companion? Reflect on cases, whe
 Audio record your answer and send your recording.
 
 
+#########################
+
+Workbook: The role technology might play
+
+#########################
+
+In the second section of this workbook I will present 4 activities and proposals to work on. Together, we will explore some basic ingredients of AI technology to begin thinking about the possible roles AI could play to enhance your partnership.
+
+As in the previous section, you can access each activity pressing the "next" and "back" buttons at the end of each activity page.  You’re welcome to read all the activities first or to read them as you go.
+
+
 ##########################
 
-The role AI might play
+The role technology might play
 
 ##########################
 
 Activity 1
 
-Experience 2 small applications
-Materials set up
-One person has to hold the smartphone you are using for this workbook in front of themselves
-the other person has to wear the tangible tag tied to a strap on their arm. You can find the tangible tag in the envelope marked by a square. A tag is a binary drawing composed of geometric shapes. You can sense it using the large tactile version provided in the materials.
-The following two pages contain two slightly different applications to detect the tag one person is wearing using the smartphone's camera the other person is holding. When the tag is detected an audible feedback is played back. When you start, change your position in relation to your companion (e.g., move from left to right, or come closer) and experience how the audible feedback changes in relation to one another position and orientation. A brief task description is provided at the top of each page. The Strat application button will lead you to the first application.
+Sensing a wearable tag
 
-How far are you?
-During my studies I have met some pair who told me that while walking together may also happen they physically disengage for some reason (e.g., an unexpected event happening in the surrounding) and both companions may feel disoriented.
-Has that ever happened to you? How far do you move?
-A new wearable AI sensor can detect these moments of physical disengagement. Which kind of information would you be interested in receiving?
-Materials set up
-Materials you need:
-The smartphone you are using.
-A tangible tag tied to a strap. You can find it in the envelope marked by a square. A tag is a binary drawing composed of geometric shapes. You can sense it using the large tactile version provided in the materials.
-One person has to hold the smartphone in front of themselves, the other person has to wear the tangible tag on the arm. Ensure the tag is facing the phone's front camera.
-Experience 2 small applications
-The following two pages contain two slightly different applications to detect the tag you are wearing. When the tag is detected an audible feedback is played back. A brief task description is provided at the top of each page.
+In this activity, I’d like you to experiment with two slightly different ways of sensing a wearable tag. The tag I’ve sent to you is composed of black and white geometric shapes and designed to be relatively easy to detect using a camera. You can find this in the envelope marked with a square. Use the large tactile version of the tag, provided in the materials, to get a sense of its shape.
+To prepare for the activity, you’ll need to arrange yourselves in the following way:
+One of you (Person A) should strap the tangible tag to your arm making sure it’s clearly visible.
+The other person (Person B) should hold the smartphone you are using to participate in the activities. You will be using the front-facing camera on the phone (the camera on the side of the screen) so hold it so the camera can be pointed towards your partner.
 
 --------------------
 
-Exploring Direction
-This application uses the front camera of your smartphone to capture the scene in front of you and detect a tag worn by the other person. When the tag is detected the application plays back a sound. The audible feedback has a soft sound when in the middle of the screen and  changes in rate (it accelerates) when it is close to the left or right camera's edges.
+Exploring left-to-right movement
+
+The first thing you’ll experiment with is sensing the left-to-right movement of the person wearing the tag.
+Person B should hold the smartphone so the camera is pointing towards Person A. Once this is done, centre the tag on the screen as best you can. When the tag is detected the phone will play a sound. The audible feedback has a soft sound when in the middle of the screen and  changes in rate (or pitch) when the tag moves to the left or right of the camera’s field of view. You should try out different movements together to get sense of how the system works. For example, the person wearing the tag (Person B) should move, then Person A might try moving the camera. Think about how you relate to one another and consider whether anything adds to sense you have of one another.
+
 
 --------------------
 
 Exploring Distance
-Similarly to the previous application, this one detects the tag using the  smartphone’s front camera. When the tag is detected the application plays back a sound. This time the audible feedback changes in volume. It get louder as it moves closer to the camera.
+As with the previous experiment, you’ll be detecting the tag using the  smartphone’s front camera. When the tag is detected the phone plays back a sound. This time the audible feedback represents the tag’s distance from the phone. The sound will change in volume. It will get louder as the tag is moved closer to the camera.
+As with before, experiment with this. Try moving closer and further away from each other. Can you imagine this giving you a greater sense of the person you’re with? How does this differ to the left-to-right experiment? Could they work together?
 
 --------------------
 
 Activity 1
-Reflect on these applications in relation to your guiding experience
-During my studies I have met some pair who told me that while walking together may also happen they physically disengage for some reason (e.g., an unexpected event happening in the surrounding) and both companions may feel disoriented. Has that ever happened to you? How far do you move? How do you move in relation to your companion?
-
-A new wearable AI sensor can detect these moments when you are not in physical contact during a walk. Which kind of information would you be interested in receiving?  What would a sound indicate?  How would it support your communication?
-
+Reflect on these experiments in relation to your guiding experience
+How might ways of sensing distance and movement compliment the ways you interact with one another?
+During my earlier research, I met some pairs who told me that while walking together they sometime physically disengage for some reason (e.g., an unexpected event happening in the surroundings). Here the sight impaired person can feel disoriented. Has that ever happened to you? Do you move or stand still? How do you move in relation to your companion?
+Sensors like the ones we’ve experimented with can detect moments when you are not in physical contact, like in the situation we’ve just discussed. What kinds of information would you be interested in receiving? What would a sound indicate? How would it support your communication?
 
 --------------------
 
 Activity 2
 How would you teach a machine to learn your body language?
-I have realised travel companions create their own language. For instance, a sighted guide (Sara) usually says "Go skinny" and moves her arm towards her back to indicate to her blind companion to move behind her, for instance because the street ahead is getting narrow.
-You are a team who has the opportunity to label actions related to sighted guiding for an AI technology which will be developed to recognise body movements in sighted guiding. What are relevant actions of your own body language you want to teach?
+I have realised travel companions create their own language. For instance, one sighted guide I’ve worked with often says "Go skinny" and bends her arm back to indicate to her blind companion to move behind her, for instance because the street ahead has narrowed.
+
+Imagine you are a team who has been given the opportunity to label actions related to sighted guiding for new assistive technology. The technology will recognise body movements in sighted guiding. What kinds of actions or body movements would you want to teach?
 Have a walk outside using your usual sighted guiding formation.
-1. Pause the walk every time one of you does a body movement you think an AI tech should recognise.
-2. Think aloud and discuss together: What is this movement? Why did you choice it?
-3. Use one, 2 or few words to label the body movement: What does it mean for you?
+1. Pause the walk every time one of you makes a body movement you think an assistive technology should recognise.
+2. Use one to three words to label the body movements.
+3. Think aloud and discuss the movement. Why did you chose it? How does it help you work together? How might the recognition of it by an assistive technology help you, even if in a small way?
 
 Send your data
 
 --------------------
 
 Activity 3
-Silence is also communication
-Current voice synthesisers (e.g., Siri) recognise and response to your voice, but they ignore silence. In early research I found silence was used in the sighted guiding practice as a relevant sign to shift the attention towards something more challenging happening around (e.g., while getting through a narrow gap or some passers-by coming up). If a pause in the ongoing conversation while walking together can be detected by an intelligent system an audible feedback could be used to support challenging situations you experience.
-Discuss and reflect
-While walking together what is a challenge situation you have experience? What would a sound indicate? How would it support your communication?
+Silence is also communication.
+Current voice synthesisers (e.g., Siri) recognise and respond to your voice, but they ignore silence. In early research, I found silence was used in the sighted guiding partnership as a sign to shift the attention towards something more challenging happening in the surroundings. For example, while navigating a narrow gap or passing some approaching passers-by.
+
+Using provided materials and other materials you may have home (e.g., pens, strings, cutlery, pasta, nuts) craft and illustrate on the table a familiar short journey, or situation where you have noticed a pause in the conversation plays an important role in your own partnership. How does silence support you both? Use a post-it or a piece of paper to answer this question and stick-it close to your creation.
+Take a picture of your initial creation.
+
+If that pause in the conversation you have identified in the previous situation could be detected by a new assistive technology how might it support you both? Could it give you additional information about your surroundings and how they are changing? Also, what kind of feedback could accompany the silence? An unobtrusive sound, some sort of tactile feedback? Reflect together on these questions and using materials you have available improve your creation to express your idea.
+Take a picture of your final creation.
+
+Use the send my creation form to upload both pictures. If you feel you want to further explain your creation use the text area in the form.
+
+-------------------
+
+Activity 4
+Better together than apart
+A famous phylosopher said: “The whole is greater than the sum of its parts”.
+Reflect on your experiences working together. Think about contexts, situations, or actions during sighted guiding where you’ve combined your skills to achieve something together. This might be something obvious like jointly sensing some commotion in your surroundings or something more subtle like the pause in the conversation you both take, as discussed in the previous activity. In turn, each describe a meaningful situation where you have added to your combined strengths as a pair. Consider, in particular, the give and take of the partnership.
+
+Reflect on these situations you’ve shared. 
+
+Can you think of a role for technology in strengthening what you achieve as partners in these situations? This will be difficult, I know, so if you find it hard try completing or replacing the placeholder words in the following statements:
+
+What if an assistive technology could … What if an assistive technology could recognise us [placeholder] This would enable us to … This would enable us to be more [placeholder] together
+In the Send your enhanced situations form, describe the 2 situations (adding details about the two-way nature of the interactions). Also send any completed sentences you were able to put together. Send your enhanced situations form
